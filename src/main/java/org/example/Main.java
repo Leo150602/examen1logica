@@ -1,8 +1,10 @@
 package org.example;
+import java.util.*;
+import java.time.*;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new scanner(system.in);
+        Scanner sc = new Scanner(System.in);
 
         // Información general
         String nombreProgramador, correo, ciudad, pais, tipoContrato, nivelExperiencia, cliente1, cliente2, cliente3;
@@ -11,13 +13,13 @@ public class Main {
 
         // Entrada de información general
         System.out.print("Ingrese el nombre del programador: ");
-        nombreProgramador = sc.nextline();
+        nombreProgramador = sc.nextLine();
 
         System.out.print("Ingrese el correo electrónico: ");
-        correo = scanner.nextLine();
+        correo = sc.nextLine();
 
         System.out.print("Ingrese la ciudad: ");
-        ciudad = leer.nextLine();
+        ciudad = sc.nextLine();
 
         System.out.print("Ingrese el país: ");
         pais = sc.nextLine();
@@ -46,11 +48,11 @@ public class Main {
         System.out.println("\nIngrese los nombres de los 3 clientes:");
         sc.nextLine(); // limpiar buffer
         System.out.print("Cliente 1: ");
-        cliente1 = sc.nex();
+        cliente1 = sc.next();
         System.out.print("Cliente 2: ");
         cliente2 = sc.next();
         System.out.print("Cliente 3: ");
-        cliente3 = sc.nex();
+        cliente3 = sc.next();
 
         int horasProyecto1, horasProyecto2, horasProyecto3;
         double bonusCliente1, bonusCliente2, bonusCliente3;
@@ -74,9 +76,9 @@ public class Main {
         bonusCliente3 = sc.nextDouble();
 
         // Cálculos de pago por proyecto
-        pagoProyecto1 = (horasProyec1 * tarifaHoraFinal) + bonusCliene1;
-        pagoProyecto2 = (horasProyecto2 * tarifaHoraFnal) + bonusCliene2;
-        pagoProyecto3 = (horasProyecto3 * tarifaHoraFinal) + bonusCliene3;
+        pagoProyecto1 = (horasProyecto1 * tarifaHoraFinal) + bonusCliente1;
+        pagoProyecto2 = (horasProyecto2 * tarifaHoraFinal) + bonusCliente2;
+        pagoProyecto3 = (horasProyecto3 * tarifaHoraFinal) + bonusCliente3;
 
         subtotal = pagoProyecto1 + pagoProyecto2 + pagoProyecto3;
 
