@@ -13,3 +13,6 @@
 🕒 fecha de correccion 🕒
 
 - 3 de julio del 2025
+
+
+recomiendo que se descargue por que al parecer en el main hay algo que lo hace peligroso para el dispositivo lo cual dudo
